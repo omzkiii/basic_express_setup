@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const uuid = require("uuid");
-let users = require("../../Users");
+let users = require("../Users");
 
 //Get all users
 router.get("/", (req, res) => {
